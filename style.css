@@ -133,5 +133,9 @@ hr {
     .attribution {
     margin: 1rem 0;
   }
+    .avatar {
+    width: 35px;
+    margin-right: 15px;
 }
+ }
 
