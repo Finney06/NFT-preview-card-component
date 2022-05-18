@@ -19,6 +19,12 @@
 
 body {
     background-color: var(--very-dark-blue-main-BG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 
@@ -30,14 +36,6 @@ hr {
     border-bottom: 0px;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0 auto;
-}
 
 .card {
     background-color: var(--very-dark-blue-card-BG);
@@ -61,6 +59,8 @@ hr {
     margin: 20px 0 20px;
     color: var(--white);
     font-weight: 400;
+    font-size: 21px;
+    
 }
 
 .heading:hover {
@@ -106,6 +106,7 @@ hr {
     align-items: center;
     margin: 15px 0 0;
     font-weight: 300;
+    
 }
 
 .avatar {
