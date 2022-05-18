@@ -24,7 +24,7 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    margin: 50px 20px 0;
+    margin: 50px 20px 30px;
 }
 
 
@@ -50,11 +50,30 @@ hr {
     border-radius: 15px;
 }
 
-.image:hover {
-    background-color: var(--pry-cyan);
-    background-image: url(images/icon-view.svg);
-    transition: ease-in-out 0.5s;
+.img-container {
+    position: relative;
+    display: flex;
+    cursor: pointer;
 }
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, .5);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .4s;
+}
+
+.img-container:hover .overlay  {
+    opacity: 1;
+}
+
+
 
 .heading {
     margin: 20px 0 20px;
@@ -150,7 +169,6 @@ hr {
 
 
 @media (max-width:375px){
- 
   .attribution {
     margin: 1rem 0;
   }
