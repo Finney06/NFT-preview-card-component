@@ -5,7 +5,7 @@
     --pry-cyan: hsl(178,100%,50%);
     --very-dark-blue-main-BG: hsl(217,54%,11%);
     --very-dark-blue-card-BG: hsl(216,50%,16%);
-    --very-dark-blue-line: hsl(215%,32%,27%);
+    --very-dark-blue-line: hsl(215,32%,27%);
     --white: hsl(0,0%,100%);
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
@@ -25,11 +25,10 @@ body {
 hr {
     border-top: 1px solid  hsl(215, 32%,27%);
     /* height: 3px; */
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
 }
-
 
 .wrapper {
     display: flex;
@@ -90,12 +89,16 @@ hr {
 .ethereum {
     color: var(--pry-cyan);
     font-weight: 400;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 5px;
+
 }
 
 .clock {
     color: var(--pry-soft-blue);
     font-weight: 300;
+    margin-left: 5px;
+
 }
 
 .bottom-section {
@@ -128,18 +131,28 @@ hr {
     margin: 1rem 1rem;
   }
 
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+
 
 
 @media (max-width:375px){
     .card {
         width: 300px ;
   }
-    .attribution {
+  .attribution {
     margin: 1rem 0;
   }
-    .avatar {
+  .avatar {
     width: 35px;
     margin-right: 15px;
 }
- }
-
+}
