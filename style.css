@@ -119,3 +119,13 @@ hr {
     color: var(--pry-cyan);
     transition: ease-in-out 0.5s;
 }
+
+
+
+
+@media (max-width:375px){
+    .card {
+        width: 300px ;
+  }
+}
+
