@@ -23,8 +23,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    margin: 0 auto;
+    min-height: 100vh;
+    margin: 50px 20px 0;
 }
 
 
@@ -39,11 +39,10 @@ hr {
 
 .card {
     background-color: var(--very-dark-blue-card-BG);
-    width: 350px;
+    max-width: 350px;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0px 1.5rem 1.5rem 2.5rem hsla(240, 67%, 7%, 0.1);
-
+     box-shadow: 0px 1.5rem 1.5rem 2.5rem hsla(240, 67%, 7%, 0.1);
 }
 
 .image {
@@ -116,6 +115,7 @@ hr {
     margin-right: 20px;
     border-radius: 50%;
     border: 1px solid white;
+
 }
 
 .creation {
@@ -150,9 +150,7 @@ hr {
 
 
 @media (max-width:375px){
-    .card {
-        width: 300px ;
-  }
+ 
   .attribution {
     margin: 1rem 0;
   }
