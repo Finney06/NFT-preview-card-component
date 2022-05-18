@@ -120,12 +120,18 @@ hr {
     transition: ease-in-out 0.5s;
 }
 
+.attribution {
+    margin: 1rem 1rem;
+  }
 
 
 
 @media (max-width:375px){
     .card {
         width: 300px ;
+  }
+    .attribution {
+    margin: 1rem 0;
   }
 }
 
