@@ -83,4 +83,4 @@ I would love to learn more about positioning and CSS grid system also to take mo
 
 ## Acknowledgments
 
-I would like to acknowledge the people that answered my questions on frontend mentor  [@Grace](https://frontendmentor.slack.com/team/U01D6CR3C68)from Slack for also helping me out with the hover effect.
+I would like to acknowledge the people that answered my questions on frontend mentor  [@Grace] (https://frontendmentor.slack.com/team/U01D6CR3C68)from Slack for also helping me out with the hover effect.
