@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-fobD8AVFZA)
-- Live Site URL: [Add live site URL here](https://finney06.github.io/NFT-preview-card-component/)
+- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/nft-preview-card-component-fobD8AVFZA)
+- Live Site URL: [Live Site Solution Link](https://finney06.github.io/NFT-preview-card-component/)
 
 ## My process
 
@@ -76,11 +76,11 @@ I would love to learn more about positioning and CSS grid system also to take mo
 
 
 ## Author
-
-- Website - [Osajere Finney](https://finney06.github.io/profile-card-component/)
 - Frontend Mentor - [@Finney06](https://www.frontendmentor.io/profile/Finney06)
 - Twitter - [@Osa_finney](https://www.twitter.com/@Osa_finney)
+- Github - [@finney06](https://github.com/Finney06)
+
 
 ## Acknowledgments
 
-I would like to acknowledge the people that answered my questions on frontend mentor  [@Grace] (https://frontendmentor.slack.com/team/U01D6CR3C68) from Slack for also helping me out with the hover effect.
+I would like to acknowledge the people that answered my questions on frontend mentor  [@Grace](https://frontendmentor.slack.com/team/U01D6CR3C68) from Slack for also helping me out with the hover effect.
